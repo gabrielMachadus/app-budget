@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1 className="fonteBranca ">Alterando JSX</h1>
+      <h1 className="fonteBranca  menu">Alterando JSX</h1>
       <Pessoa 
         indice={0}
       />
@@ -17,6 +17,22 @@ function App() {
       <Pessoa 
         indice={3}
       />
+      <Pessoa 
+        indice={4}
+      />
+      <Pessoa 
+        indice={5}
+      />
+      <Pessoa 
+        indice={6}
+      />
+      <Pessoa 
+        indice={7}
+      />
+      
+      
+      
+      
     </div>
   )
 }

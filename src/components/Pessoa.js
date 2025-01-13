@@ -7,7 +7,7 @@ const pessoas = [
         foto: "https://i.pravatar.cc/150?img=69"
       },
       {
-        nomeCompleto: "Tais Marcela Souza",
+        nomeCompleto: "Tais de Souza",
         idade: 25,
         profissao: "Designer",
         foto: "https://i.pravatar.cc/150?img=5"
@@ -23,6 +23,30 @@ const pessoas = [
         idade: 25,
         profissao: "Designer",
         foto: "https://i.pravatar.cc/150?img=1"
+      },
+      {
+        nomeCompleto : "João Carlos",
+        idade: 30,
+        profissao: "Engenheiro",
+        foto: "https://i.pravatar.cc/150?img=59"
+      },
+      {
+        nomeCompleto: " Marcela Luzia Cristo",
+        idade: 25,
+        profissao: "Designer",
+        foto: "https://i.pravatar.cc/150?img=40"
+      },
+      {
+        nomeCompleto: "Andresa da Silva",
+        idade: 25,
+        profissao: "Designer",
+        foto: "https://i.pravatar.cc/150?img=20"
+      },
+      {
+        nomeCompleto: "Luana Machado",
+        idade: 25,
+        profissao: "Designer",
+        foto: "https://i.pravatar.cc/150?img=10"
       },
 ]
     
