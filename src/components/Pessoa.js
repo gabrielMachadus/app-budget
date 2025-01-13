@@ -2,50 +2,50 @@ import styles from "./Pessoa"
 const pessoas = [
     {
         nomeCompleto : "João Carlos",
-        idade: 30,
-        profissao: "Engenheiro",
+        ramal: 30,
+        setor: "TI",
         foto: "https://i.pravatar.cc/150?img=69"
       },
       {
         nomeCompleto: "Tais de Souza",
-        idade: 25,
-        profissao: "Designer",
+        ramal: 25,
+        setor: "Marketing",
         foto: "https://i.pravatar.cc/150?img=5"
       },
       {
         nomeCompleto: "Joana Silva",
-        idade: 25,
-        profissao: "Designer",
+        ramal: 25,
+        setor: "Marketing",
         foto: "https://i.pravatar.cc/150?img=9"
       },
       {
         nomeCompleto: "Carla Oliveira",
-        idade: 25,
-        profissao: "Designer",
+        ramal: 25,
+        setor: "Marketing",
         foto: "https://i.pravatar.cc/150?img=1"
       },
       {
         nomeCompleto : "João Carlos",
-        idade: 30,
-        profissao: "Engenheiro",
+        ramal: 30,
+        setor: "TI",
         foto: "https://i.pravatar.cc/150?img=59"
       },
       {
         nomeCompleto: " Marcela Luzia Cristo",
-        idade: 25,
-        profissao: "Designer",
+        ramal: 25,
+        setor: "Compras",
         foto: "https://i.pravatar.cc/150?img=40"
       },
       {
         nomeCompleto: "Andresa da Silva",
-        idade: 25,
-        profissao: "Designer",
+        ramal: 25,
+        setor: "Comercial",
         foto: "https://i.pravatar.cc/150?img=20"
       },
       {
         nomeCompleto: "Luana Machado",
-        idade: 25,
-        profissao: "Designer",
+        ramal: 25,
+        setor: "Vendas",
         foto: "https://i.pravatar.cc/150?img=10"
       },
 ]
@@ -58,8 +58,8 @@ function Pessoa({indice}){
             <div className="block justify-content"> 
                 <div className="Padding25 justify-content">
                     <h3 >{pessoas[indice].nomeCompleto}</h3>  
-                    <p>Idade: {pessoas[indice].idade}</p>  
-                    <p>Profissão: {pessoas[indice].profissao}</p>
+                    <p>Ramal: {pessoas[indice].ramal}</p>  
+                    <p>Setor: {pessoas[indice].setor}</p>
                 </div>  
                 <img className=" block  imagem" src={pessoas[indice].foto} />
             </div>
