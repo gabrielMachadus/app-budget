@@ -4,7 +4,10 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <h1 className="fonteBranca  menu">Ramais</h1>
+      <div  className="menu">
+        <h2 className="fonteBranca ">Ramais</h2>
+      </div>
+        
       <Pessoa 
         indice={0}
       />
