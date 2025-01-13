@@ -1,25 +1,24 @@
-import logo from './logo.svg';
+import Pessoa from './components/Pessoa';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h1 className="fonteBranca ">Alterando JSX</h1>
+      <Pessoa 
+        indice={0}
+      />
+      <Pessoa 
+        indice={1}
+      />
+      <Pessoa 
+        indice={2}
+      />
+      <Pessoa 
+        indice={3}
+      />
     </div>
-  );
+  )
 }
 
 export default App;
