@@ -1,5 +1,5 @@
-.App {
-  text-align: center;
+.main {
+  text-align: justify;
 }
 
 .fonteBranca{
@@ -9,7 +9,8 @@
 .menu{
   margin-top: -40px;
   width: 100%;
-  height: 50px;
+  height: 60px;
+  text-align: center;
   position: fixed;
   background-color: rgba(128, 128, 128, 0.753);
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
@@ -25,7 +26,7 @@ body{
 .fixarNoTopo{
   position: fixed;
 }
-.block{
+.displayFlex{
   display: flex;
 }
 
@@ -37,11 +38,16 @@ body{
   border-radius: 20px;
 }
 
-.Margem{
+.Margem20{
   margin: 20px;
 }
 
-
+.Margem10{
+  margin: 10px;
+}
+.Padding5{
+  padding:5px;
+}
 .Padding25{
   padding:25px;
 }
@@ -55,6 +61,28 @@ body{
   width: 360px;
   max-width: 500px;
   display: inline-block;
+}
+
+.fundoVerde{
+  background-color:rgb(5, 112, 2);
+  transition: background-color 0.5s ease, color 0.8s ease;
+}
+
+.fundoVerde:hover{
+  background-color:rgb(9, 168, 4);
+}
+
+.fundoVermelho{
+  background-color:rgb(133, 4, 4);
+  transition: background-color 0.5s ease, color 0.8s ease;
+}
+.fundoVermelho:hover{
+  background-color:rgb(182, 0, 0);
+}
+
+.bordaPretaArrendada{
+  border-radius: 5px;
+  border: 1px solid rgba(0, 0, 0, 0.432);
 }
 
 .imagem{
@@ -74,4 +102,27 @@ body{
 } 
 
 
+
+
+
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.popup-content {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
 
