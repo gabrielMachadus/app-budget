@@ -88,7 +88,6 @@ function Pessoas() {
     setSelectedPessoa(null);
   }
 
-
   return (
     <>
       {pessoas.map((pessoa, i) => (
