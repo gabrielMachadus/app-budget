@@ -126,3 +126,88 @@ body{
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
+/* Estilo dos botões flutuantes */
+.botoes-flutuantes {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 10px; /* Espaço entre os botões */
+}
+
+.botao-flutuante {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%; /* Torna o botão redondo */
+  background-color: #007bff; /* Cor de fundo */
+  color: white; /* Cor do texto */
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Sombra para efeito flutuante */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.botao-flutuante:hover {
+  background-color: #0056b3; /* Cor de fundo ao passar o mouse */
+}
+
+/* Estilo do tooltip */
+.tooltip {
+  visibility: hidden; /* Esconde o tooltip por padrão */
+  width: 100px;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%; /* Posiciona o tooltip acima do botão */
+  left: 50%;
+  margin-left: -50px; /* Centraliza o tooltip */
+  opacity: 0;
+  transition: opacity 0.8s;
+}
+
+/* Mostra o tooltip ao passar o mouse */
+.botao-flutuante:hover .tooltip {
+  visibility: visible;
+  opacity: 1;
+}
+
+/* Estilo do skeleton screen */
+.skeleton-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.skeleton-item {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.skeleton-avatar {
+  width: 60px;
+  height: 60px;
+  background-color: #e0e0e0;
+  border-radius: 50%;
+  animation: pulse 1.5s infinite;
+}
+
+.skeleton-text {
+  width: 200px;
+  height: 20px;
+  background-color: #e0e0e0;
+  border-radius: 4px;
+  animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0.5; }
+}

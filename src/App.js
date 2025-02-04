@@ -1,4 +1,3 @@
-import Pessoas from './components/Pessoas';
 import Ramais from './components/Ramais'; 
 import './App.css';
 
@@ -8,7 +7,6 @@ function App() {
       <div  className="menu">
         <h2 className="fonteBranca ">Ramais</h2>
       </div>
-      <Pessoas/>
       <Ramais/>
     </div>
   )
